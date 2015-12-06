@@ -18,5 +18,5 @@ Running
 
 Example: run command
 ```
-docker run -d --name pocketmine -p 19132:19132 robsharp/rpi-pocketmine
+docker run -d --name pocketmine -p 19132:19132/udp robsharp/rpi-pocketmine
 ```
