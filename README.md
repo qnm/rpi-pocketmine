@@ -5,7 +5,7 @@ Docker image for Pocketmine on a Raspberry Pi
 
 Pull
 =======
-```docker pull qnm/rpi-pocketmine```
+```docker pull robsharp/rpi-pocketmine```
 
 Building
 ========
@@ -18,5 +18,5 @@ Running
 
 Example: run command
 ```
-docker run -d --name pocketmine -p 19132:19132 qnm/rpi-pocketmine
+docker run -d --name pocketmine -p 19132:19132 robsharp/rpi-pocketmine
 ```
